@@ -1,11 +1,11 @@
 <?PHP
 
-require_once 'sdk/facebook.php';
-require_once 'connect.php';
+require_once 'sdk/facebook.php'; //Facebook.php
+require_once 'connect.php'; //connection to mySQL
 
-define("APPLICATION_ID","");
-define("APPLICATION_SECRET","");
-define("ACCESSTOKEN",""); //Generated Access Token
+define("APPLICATION_ID",""); //your application ID
+define("APPLICATION_SECRET",""); //your application secret key
+define("ACCESSTOKEN",""); //C type Generated Access Token
 
 
 $Facebook = new Facebook(array(
