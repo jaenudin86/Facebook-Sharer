@@ -1,0 +1,38 @@
+How to Generate Access Token For Facebook AutoSharing?
+
+Step 1:
+
+ 1.1 Go to https://developers.facebook.com/tools/explorer/
+ 1.2 At Graph API Explorer Choose your App
+ 1.3 Click Get Access Token
+ 1.4 At Extended Permissions, check manage_pages & publish_actions and click Get Access Token
+
+
+Step 2:
+
+ 2.1. Debug
+ 2.2 Expires value would be in about an hour
+ 2.3 Copy Access Token
+ 
+ 
+ Step 3:
+ 
+ 3.1 open in your browser this URL
+ https://graph.facebook.com/oauth/access_token?client_id=<APP_ID>&client_secret=<APP_SECRET_KEY>8&grant_type=fb_exchange_token&fb_exchange_token=<ACCESS_TOKEN>
+
+ 3.2 Copy Access Token you have got
+ 3.3 Get "C Type Access Token" open in your browser URL: https://graph.facebook.com/<YOUR_PERSONAL_FACEBOOK_NUMERIC_ID>/accounts?access_token=<LAST_GENERATED_ACCESS_TOKEN>
+
+ 3.4 Result will be List of your Facebook Pages and scroll down and copy your Facebook pages ACCESS TOKEN "C Type Access Token"
+ 3.5 Copy this Access Token and Use it (If you debug it, result will be: Expires Never)
+ 
+ 
+ P.S.
+ 
+ 1. You should be Facebook Page admin
+ 2. In App Page: At Settings tab, Site URL must be URL of your automative sharing script
+
+
+Thank you! 
+ 
+ 
