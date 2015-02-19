@@ -5,7 +5,7 @@ require_once 'connect.php'; //connection to mySQL
 
 define("APPLICATION_ID",""); //your application ID
 define("APPLICATION_SECRET",""); //your application secret key
-define("ACCESSTOKEN",""); //C type Generated Access Token
+define("ACCESSTOKEN",""); //C type Generated Access Token. see: Generate_Access_Token.txt
 
 
 $Facebook = new Facebook(array(
