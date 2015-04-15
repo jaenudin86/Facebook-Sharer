@@ -18,7 +18,7 @@ Step 2:
  Step 3:
  
  3.1 open in your browser this URL
- https://graph.facebook.com/oauth/access_token?client_id=<APP_ID>&client_secret=<APP_SECRET_KEY>8&grant_type=fb_exchange_token&fb_exchange_token=<ACCESS_TOKEN>
+ https://graph.facebook.com/oauth/access_token?client_id=<APP_ID>&client_secret=<APP_SECRET_KEY>&grant_type=fb_exchange_token&fb_exchange_token=<ACCESS_TOKEN>
 
  3.2 Copy Access Token you have got
  3.3 Get "C Type Access Token" open in your browser URL: https://graph.facebook.com/<YOUR_PERSONAL_FACEBOOK_NUMERIC_ID>/accounts?access_token=<LAST_GENERATED_ACCESS_TOKEN>
